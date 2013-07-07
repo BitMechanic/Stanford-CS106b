@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		A8AC64F0165025B9007956B0 /* pathfinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8AC64EF165025B9007956B0 /* pathfinder.cpp */; };
+		A8AC64F3165025C2007956B0 /* pathfinder-graphics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8AC64F2165025C2007956B0 /* pathfinder-graphics.cpp */; };
+		A8AC64F6165025CA007956B0 /* path.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8AC64F5165025CA007956B0 /* path.cpp */; };
+		E3DDB4070D2F5EB100348E1D /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3DDB4060D2F5EB100348E1D /* Carbon.framework */; };
+		E3DDB40C0D2F5EBE00348E1D /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3DDB40B0D2F5EBE00348E1D /* QuickTime.framework */; };
+		E8B65E5A1652D23500E468EF /* libStanfordCPPLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8B65E591652D23400E468EF /* libStanfordCPPLib.a */; };
+		E8B65E631652D72700E468EF /* pathfinder-graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8B65E611652D72700E468EF /* pathfinder-graph.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* pathfinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pathfinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8AC64EF165025B9007956B0 /* pathfinder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pathfinder.cpp; sourceTree = "<group>"; };
+		A8AC64F1165025BE007956B0 /* pathfinder-graphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pathfinder-graphics.h"; sourceTree = "<group>"; };
+		A8AC64F2165025C2007956B0 /* pathfinder-graphics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "pathfinder-graphics.cpp"; sourceTree = "<group>"; };
+		A8AC64F4165025C6007956B0 /* path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = path.h; sourceTree = "<group>"; };
+		A8AC64F5165025CA007956B0 /* path.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = path.cpp; sourceTree = "<group>"; };
+		CE912A3E17632F3400FFABFF /* pqueue-heap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pqueue-heap.h"; sourceTree = "<group>"; };
+		CE912A411763AAC800FFABFF /* cmpfn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cmpfn.h; sourceTree = "<group>"; };
+		E3DDB4060D2F5EB100348E1D /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		E3DDB40B0D2F5EBE00348E1D /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+		E8B65E591652D23400E468EF /* libStanfordCPPLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libStanfordCPPLib.a; path = StanfordCPPLib/libStanfordCPPLib.a; sourceTree = "<group>"; };
+		E8B65E611652D72700E468EF /* pathfinder-graph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "pathfinder-graph.cpp"; sourceTree = "<group>"; };
+		E8B65E621652D72700E468EF /* pathfinder-graph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pathfinder-graph.h"; sourceTree = "<group>"; };
+		E8D763551653205300D7E26A /* pathfinder-graphics-impl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pathfinder-graphics-impl.h"; sourceTree = "<group>"; };
+		E8D76362165329D200D7E26A /* graphtypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graphtypes.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8B65E5A1652D23500E468EF /* libStanfordCPPLib.a in Frameworks */,
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				E3DDB4070D2F5EB100348E1D /* Carbon.framework in Frameworks */,
+				E3DDB40C0D2F5EBE00348E1D /* QuickTime.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* pathfinder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* pathfinder */ = {
+			isa = PBXGroup;
+			children = (
+				E8B65E611652D72700E468EF /* pathfinder-graph.cpp */,
+				A8AC64EF165025B9007956B0 /* pathfinder.cpp */,
+				A8AC64F5165025CA007956B0 /* path.cpp */,
+				E8B65E5F1652D2F000E468EF /* Headers */,
+				E8B65E641652DAD600E468EF /* Implementations */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = pathfinder;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E8B65E591652D23400E468EF /* libStanfordCPPLib.a */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3DDB40B0D2F5EBE00348E1D /* QuickTime.framework */,
+				E3DDB4060D2F5EB100348E1D /* Carbon.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E814A2E21653EF3900458F20 /* Private Headers */ = {
+			isa = PBXGroup;
+			children = (
+				E8D763551653205300D7E26A /* pathfinder-graphics-impl.h */,
+			);
+			name = "Private Headers";
+			sourceTree = "<group>";
+		};
+		E8B65E5F1652D2F000E468EF /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				E8D76362165329D200D7E26A /* graphtypes.h */,
+				E8B65E621652D72700E468EF /* pathfinder-graph.h */,
+				CE912A3E17632F3400FFABFF /* pqueue-heap.h */,
+				CE912A411763AAC800FFABFF /* cmpfn.h */,
+				A8AC64F4165025C6007956B0 /* path.h */,
+				A8AC64F1165025BE007956B0 /* pathfinder-graphics.h */,
+				E814A2E21653EF3900458F20 /* Private Headers */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		E8B65E641652DAD600E468EF /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				A8AC64F2165025C2007956B0 /* pathfinder-graphics.cpp */,
+			);
+			name = Implementations;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* pathfinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "pathfinder" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pathfinder;
+			productInstallPath = "$(HOME)/Applications";
+			productName = pathfinder;
+			productReference = 8D1107320486CEB800E47090 /* pathfinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "pathfinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* pathfinder */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* pathfinder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8AC64F0165025B9007956B0 /* pathfinder.cpp in Sources */,
+				A8AC64F3165025C2007956B0 /* pathfinder-graphics.cpp in Sources */,
+				A8AC64F6165025CA007956B0 /* path.cpp in Sources */,
+				E8B65E631652D72700E468EF /* pathfinder-graph.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/StanfordCPPLib\"",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)\"";
+				PRODUCT_NAME = pathfinder;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = .;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = .;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_CFLAGS = "-fstack-check";
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "StanfordCPPLib include";
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wno-sign-compare",
+				);
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "pathfinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "pathfinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
