@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "1.0">
+   <FileBreakpoints>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "boggle.cpp"
+         timestampString = "380327947.997893"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "496"
+         endingLineNumber = "496"
+         landmarkName = "findWords(Grid&lt;char&gt;&amp; board, Vector&lt;GPoint&gt;&amp; path, Vector&lt;int&gt;&amp; lastwordsize, Set&lt;GPoint&gt;&amp; usedsquares, Set&lt;string&gt;&amp; foundwords, string&amp; compfound, Set&lt;string&gt;&amp; usedwords, Lexicon&amp; english, bool endcheck)"
+         landmarkType = "7">
+      </FileBreakpoint>
+   </FileBreakpoints>
+</Bucket>
